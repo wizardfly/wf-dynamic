@@ -1,0 +1,89 @@
+[
+	{
+		"home" : {
+			"title" : "Home page",
+			"blocks" : [
+				{
+					"title" : "Home - B01 ipsum dolor sit",
+					"content" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi reprehenderit tempora voluptatum nesciunt labore provident est error asperiores beatae corrupti obcaecati, quis cumque illo, rem iusto veniam, sequi sint? Qui.<br/><br/>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Dolorem voluptatibus consequuntur provident voluptatem molestias quasi eligendi, quo dicta perspiciatis, consectetur ipsum iste quis at inventore quas, facere tempore. Ut, nobis."
+				},
+				{
+					"title" : "Home - Slider",
+					"slider" : {
+						"html" : [
+							"<div><h3>SLD 01</h3></div>",
+							"<div><h3>SLD 02</h3></div>",
+							"<div><h3>SLD 03</h3></div>",
+							"<div><h3>SLD 04</h3></div>",
+							"<div><h3>SLD 05</h3></div>"
+						],
+						"config" : {
+							"cls" : "sldTest0x2",
+							"id" : "sldTest0x2",
+							"params" : {
+								"slidesToShow" : 3,
+								"slidesToScroll" : 3,
+								"dots" : true,
+								"infinite" : true,
+								"arrows" : true,
+								"autoplay" : true,
+								"autoplaySpeed" : 2000
+							}
+						}
+					}
+				},
+				{
+					"title" : "Home - B02 sequi quo atque",
+					"content" : "Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Dicta molestiae eligendi, quaerat veritatis illum? Quaerat temporibus commodi illo fugiat perferendis dolores, eaque animi totam repudiandae aliquid voluptatibus cum quisquam explicabo!<br/><br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, sunt corporis consectetur incidunt cumque asperiores iure suscipit modi at, vitae nostrum quam laudantium ipsam, inventore quisquam, ducimus quasi dolor. Repellat!"
+				},
+				{
+					"title" : "Home - B03 consectetur",
+					"content" : "Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Voluptatum dolore consequuntur, possimus, provident quaerat sunt incidunt fugiat recusandae dolorem corrupti. Perspiciatis cupiditate obcaecati asperiores nobis. Possimus asperiores inventore, ad. Quas."
+				},
+				{
+					"title" : "Home - B04 sit amet",
+					"content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consequuntur sequi quo atque amet, minus ut corrupti veritatis soluta ipsa ipsam, eos quam sint aspernatur? Inventore hic aliquid sapiente nihil?"
+				}
+			]
+		},
+		"page-one" : {
+			"title" : "Page one",
+			"blocks" : [
+				{
+					"title" : "One - B01 sequi quo atque",
+					"content" : "Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Dicta molestiae eligendi, quaerat veritatis illum? Quaerat temporibus commodi illo fugiat perferendis dolores, eaque animi totam repudiandae aliquid voluptatibus cum quisquam explicabo!<br/><br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, sunt corporis consectetur incidunt cumque asperiores iure suscipit modi at, vitae nostrum quam laudantium ipsam, inventore quisquam, ducimus quasi dolor. Repellat!"
+				},
+				{
+					"title" : "One - B02 sit amet",
+					"content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consequuntur sequi quo atque amet, minus ut corrupti veritatis soluta ipsa ipsam, eos quam sint aspernatur? Inventore hic aliquid sapiente nihil?"
+				}
+			]
+		},
+		"page-two" : {
+			"title" : "Page Two",
+			"blocks" : [
+				{
+					"title" : "Two - B01 consectetur",
+					"content" : "Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Voluptatum dolore consequuntur, possimus, provident quaerat sunt incidunt fugiat recusandae dolorem corrupti. Perspiciatis cupiditate obcaecati asperiores nobis. Possimus asperiores inventore, ad. Quas."
+				},
+				{
+					"title" : "Two - B02 sit amet",
+					"content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consequuntur sequi quo atque amet, minus ut corrupti veritatis soluta ipsa ipsam, eos quam sint aspernatur? Inventore hic aliquid sapiente nihil?"
+				}
+			]
+		},
+		"page-three" : {
+			"title" : "Page Three",
+			"blocks" : [
+				{
+					"title" : "Three - B01 sequi quo atque",
+					"content" : "Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Dicta molestiae eligendi, quaerat veritatis illum? Quaerat temporibus commodi illo fugiat perferendis dolores, eaque animi totam repudiandae aliquid voluptatibus cum quisquam explicabo!<br/><br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, sunt corporis consectetur incidunt cumque asperiores iure suscipit modi at, vitae nostrum quam laudantium ipsam, inventore quisquam, ducimus quasi dolor. Repellat!"
+				},
+				{
+					"title" : "Three - B02 ipsum dolor sit",
+					"content" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi reprehenderit tempora voluptatum nesciunt labore provident est error asperiores beatae corrupti obcaecati, quis cumque illo, rem iusto veniam, sequi sint? Qui.<br/><br/>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Dolorem voluptatibus consequuntur provident voluptatem molestias quasi eligendi, quo dicta perspiciatis, consectetur ipsum iste quis at inventore quas, facere tempore. Ut, nobis."
+				}
+			]
+		}
+	}
+]

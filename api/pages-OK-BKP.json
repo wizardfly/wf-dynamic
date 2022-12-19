@@ -1,0 +1,218 @@
+[
+	{
+		"home" : {
+			"title" : "Home page",
+			"blocks" : [
+				{
+					"title" : "Home - B01 ipsum dolor sit",
+					"content" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi reprehenderit tempora voluptatum nesciunt labore provident est error asperiores beatae corrupti obcaecati, quis cumque illo, rem iusto veniam, sequi sint? Qui.<br/><br/>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Dolorem voluptatibus consequuntur provident voluptatem molestias quasi eligendi, quo dicta perspiciatis, consectetur ipsum iste quis at inventore quas, facere tempore. Ut, nobis."
+				},
+				{
+					"title" : "Home - Slider IMG Test2 [in block 02]",
+					"slider" : {
+						"html" : [
+							"<div><a href='#'><img src='img/icons/014-damasco.png' alt='014-damasco'/></a></div>",
+							"<div><a href='#'><img src='img/icons/015-morango.png' alt='015-morango'/></a></div>",
+							"<div><a href='#'><img src='img/icons/016-alface.png' alt='016-alface'/></a></div>",
+							"<div><a href='#'><img src='img/icons/017-uvas.png' alt='017-uvas'/></a></div>",
+							"<div><a href='#'><img src='img/icons/018-ameixa.png' alt='018-ameixa'/></a></div>",
+							"<div><a href='#'><img src='img/icons/019-mirtilo.png' alt='019-mirtilo'/></a></div>",
+							"<div><a href='#'><img src='img/icons/020-abacaxi.png' alt='020-abacaxi'/></a></div>",
+							"<div><a href='#'><img src='img/icons/021-batata-doce.png' alt='021-batata-doce'/></a></div>",
+							"<div><a href='#'><img src='img/icons/022-paprica.png' alt='022-paprica'/></a></div>",
+							"<div><a href='#'><img src='img/icons/023-melancia.png' alt='023-melancia'/></a></div>",
+							"<div><a href='#'><img src='img/icons/024-gengibre.png' alt='024-gengibre'/></a></div>",
+							"<div><a href='#'><img src='img/icons/025-berinjela.png' alt='025-berinjela'/></a></div>",
+							"<div><a href='#'><img src='img/icons/026-rabanete.png' alt='026-rabanete'/></a></div>"
+						],
+						"config" : {
+							"cls" : "sldTest0x2",
+							"slick" : {
+                				"slidesToShow" : 5,
+                				"slidesToScroll" : 5,
+                				"dots" : true,
+                				"infinite" : true,
+                				"arrows" : false,
+                				"autoplay" : false,
+                				"autoplaySpeed" : 2500
+							}
+						}
+					}
+				},
+				{
+					"title" : "Home - Slider IMG ABC [in block 03]",
+					"slider" : {
+						"html" : [
+							"<div><a href='#'><img src='img/icons/001-abacate.png' alt='001-abacate'/></a></div>",
+							"<div><a href='#'><img src='img/icons/002-roma.png' alt='002-roma'/></a></div>",
+							"<div><a href='#'><img src='img/icons/003-banana.png' alt='003-banana'/></a></div>",
+							"<div><a href='#'><img src='img/icons/004-melao.png' alt='004-melao'/></a></div>",
+							"<div><a href='#'><img src='img/icons/005-pessego.png' alt='005-pessego'/></a></div>",
+							"<div><a href='#'><img src='img/icons/006-abobrinha.png' alt='006-abobrinha'/></a></div>",
+							"<div><a href='#'><img src='img/icons/007-manga.png' alt='007-manga'/></a></div>",
+							"<div><a href='#'><img src='img/icons/008-pepino.png' alt='008-pepino'/></a></div>",
+							"<div><a href='#'><img src='img/icons/009-laranja.png' alt='009-laranja'/></a></div>",
+							"<div><a href='#'><img src='img/icons/010-oliva.png' alt='010-oliva'/></a></div>",
+							"<div><a href='#'><img src='img/icons/011-alho.png' alt='011-alho'/></a></div>",
+							"<div><a href='#'><img src='img/icons/012-espargos.png' alt='012-espargos'/></a></div>",
+							"<div><a href='#'><img src='img/icons/013-cenoura.png' alt='013-cenoura'/></a></div>"
+						],
+						"config" : {
+							"cls" : "clsABC02",
+							"slick" : {
+                				"slidesToShow" : 7,
+                				"slidesToScroll" : 7,
+                				"dots" : true,
+                				"infinite" : true,
+                				"arrows" : false,
+                				"autoplay" : false,
+                				"autoplaySpeed" : 2500
+							}
+						}
+					}
+				},
+				{
+					"title" : "Home - B02 sequi quo atque",
+					"content" : "Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Dicta molestiae eligendi, quaerat veritatis illum? Quaerat temporibus commodi illo fugiat perferendis dolores, eaque animi totam repudiandae aliquid voluptatibus cum quisquam explicabo!<br/><br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, sunt corporis consectetur incidunt cumque asperiores iure suscipit modi at, vitae nostrum quam laudantium ipsam, inventore quisquam, ducimus quasi dolor. Repellat!"
+				},
+				{
+					"title" : "Home - B03 consectetur",
+					"content" : "Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Voluptatum dolore consequuntur, possimus, provident quaerat sunt incidunt fugiat recusandae dolorem corrupti. Perspiciatis cupiditate obcaecati asperiores nobis. Possimus asperiores inventore, ad. Quas."
+				},
+				{
+					"title" : "Home - B04 sit amet",
+					"content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consequuntur sequi quo atque amet, minus ut corrupti veritatis soluta ipsa ipsam, eos quam sint aspernatur? Inventore hic aliquid sapiente nihil?"
+				}
+			]
+		},
+		"page-one" : {
+			"title" : "Page one",
+			"blocks" : [
+				{
+					"title" : "One - Slider ICONS [in block 01]",
+					"slider" : {
+						"html" : [
+							"<div><div class='icon-holder'><i class='fi fi-br-a'></i><span class='label mono'>fi-br-a</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-ad'></i><span class='label mono'>fi-br-ad</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-add-document'></i><span class='label mono'>fi-br-add-document</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-add-folder'></i><span class='label mono'>fi-br-add-folder</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-add'></i><span class='label mono'>fi-br-add</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-address-book'></i><span class='label mono'>fi-br-address-book</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-air-conditioner'></i><span class='label mono'>fi-br-air-conditioner</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-air-freshener'></i><span class='label mono'>fi-br-air-freshener</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-alarm-clock'></i><span class='label mono'>fi-br-alarm-clock</span></div></div>"
+						],
+						"config" : {
+							"cls" : "sldICON0a",
+							"slick" : {
+                				"slidesToShow" : 5,
+                				"slidesToScroll" : 5,
+                				"dots" : true,
+                				"infinite" : true,
+                				"arrows" : false,
+                				"autoplay" : false,
+                				"autoplaySpeed" : 2500
+							}
+						}
+					}
+				},
+				{
+					"title" : "One - B01 sequi quo atque",
+					"content" : "Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Dicta molestiae eligendi, quaerat veritatis illum? Quaerat temporibus commodi illo fugiat perferendis dolores, eaque animi totam repudiandae aliquid voluptatibus cum quisquam explicabo!<br/><br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, sunt corporis consectetur incidunt cumque asperiores iure suscipit modi at, vitae nostrum quam laudantium ipsam, inventore quisquam, ducimus quasi dolor. Repellat!"
+				},
+				{
+					"title" : "One - B02 sit amet",
+					"content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consequuntur sequi quo atque amet, minus ut corrupti veritatis soluta ipsa ipsam, eos quam sint aspernatur? Inventore hic aliquid sapiente nihil?"
+				}
+			]
+		},
+		"page-two" : {
+			"title" : "Page Two",
+			"blocks" : [
+				{
+					"title" : "Two - B01 consectetur",
+					"content" : "Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Voluptatum dolore consequuntur, possimus, provident quaerat sunt incidunt fugiat recusandae dolorem corrupti. Perspiciatis cupiditate obcaecati asperiores nobis. Possimus asperiores inventore, ad. Quas."
+				},
+				{
+					"title" : "Two - Slider Sticker [in block 02]",
+					"slider" : {
+						"html" : [
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020405.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020405.png' alt='Happy sticker' title='Happy sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020405.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020422.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020422.png' alt='Angel sticker' title='Angel sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020422.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020436.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020436.png' alt='Angry sticker' title='Angry sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020436.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020453.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020453.png' alt='Award sticker' title='Award sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020453.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020472.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020472.png' alt='Social media sticker' title='Social media sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020472.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020484.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020484.png' alt='Broken heart sticker' title='Broken heart sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020484.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020499.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020499.png' alt='Rich sticker' title='Rich sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020499.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020515.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020515.png' alt='Cauldron sticker' title='Cauldron sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020515.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020535.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020535.png' alt='Birthday sticker' title='Birthday sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020535.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020549.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020549.png' alt='Chemistry sticker' title='Chemistry sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020549.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020564.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020564.png' alt='Leisure sticker' title='Leisure sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020564.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020587.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020587.png' alt='Relaxation sticker' title='Relaxation sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020587.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020613.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020613.png' alt='Coffee sticker' title='Coffee sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020613.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020632.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020632.png' alt='Treasure sticker' title='Treasure sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020632.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020647.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020647.png' alt='Winter sticker' title='Winter sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020647.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020663.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020663.png' alt='Wine sticker' title='Wine sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020663.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020684.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020684.png' alt='Explosion sticker' title='Explosion sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020684.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020698.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020698.png' alt='Fishing sticker' title='Fishing sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020698.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020718.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020718.png' alt='Investment sticker' title='Investment sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020718.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020733.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020733.png' alt='Hacker sticker' title='Hacker sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020733.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020754.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020754.png' alt='Happy sticker' title='Happy sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020754.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020775.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020775.png' alt='Idea sticker' title='Idea sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020775.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020790.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020790.png' alt='In love sticker' title='In love sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020790.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020812.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020812.png' alt='Workout sticker' title='Workout sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020812.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020834.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020834.png' alt='In love sticker' title='In love sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020834.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020843.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020843.png' alt='Celebration sticker' title='Celebration sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020843.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020860.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020860.png' alt='Mind blown sticker' title='Mind blown sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020860.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020875.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020875.png' alt='Question sticker' title='Question sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020875.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020893.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020893.png' alt='Meditation sticker' title='Meditation sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020893.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020901.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020901.png' alt='Read sticker' title='Read sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020901.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020915.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020915.png' alt='Santa claus sticker' title='Santa claus sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020915.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020928.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020928.png' alt='Selfie sticker' title='Selfie sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020928.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020939.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020939.png' alt='Sick sticker' title='Sick sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020939.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020942.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020942.png' alt='Injury sticker' title='Injury sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020942.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020953.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020953.png' alt='Shock sticker' title='Shock sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020953.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020956.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020956.png' alt='Surprise sticker' title='Surprise sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020956.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020963.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020963.png' alt='Tired sticker' title='Tired sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020963.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020971.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020971.png' alt='Beauty sticker' title='Beauty sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020971.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020974.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020974.png' alt='Spa sticker' title='Spa sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020974.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020978.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020978.png' alt='Winner sticker' title='Winner sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020978.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020983.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020983.png' alt='Stress sticker' title='Stress sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020983.png 4x'></div>",
+							"<div><img src='https://cdn-icons-png.flaticon.com/256/5020/5020985.png' data-src='https://cdn-icons-png.flaticon.com/256/5020/5020985.png' alt='Workout sticker' title='Workout sticker' width='64' height='64' class='lzy lazyload--done' srcset='https://cdn-icons-png.flaticon.com/256/5020/5020985.png 4x'></div>",
+							"<div><img src='https://media.flaticon.com/dist/min/img/logo/flaticon_white.svg' data-src='https://media.flaticon.com/dist/min/img/logo/flaticon_white.svg' alt='Flaticon' width='154' height='29.88' class='lzy lazyload--done' srcset='https://media.flaticon.com/dist/min/img/logo/flaticon_white.svg 4x'></div>"
+						],
+						"config" : {
+							"cls" : "sldSTICK2b",
+							"slick" : {
+                				"slidesToShow" : 5,
+                				"slidesToScroll" : 5,
+                				"dots" : true,
+                				"infinite" : true,
+                				"arrows" : false,
+                				"autoplay" : false,
+                				"autoplaySpeed" : 2500
+							}
+						}
+					}
+				},
+				{
+					"title" : "Two - B02 sit amet",
+					"content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consequuntur sequi quo atque amet, minus ut corrupti veritatis soluta ipsa ipsam, eos quam sint aspernatur? Inventore hic aliquid sapiente nihil?"
+				}
+			]
+		},
+		"page-three" : {
+			"title" : "Page Three",
+			"blocks" : [
+				{
+					"title" : "Three - B01 sequi quo atque",
+					"content" : "Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Dicta molestiae eligendi, quaerat veritatis illum? Quaerat temporibus commodi illo fugiat perferendis dolores, eaque animi totam repudiandae aliquid voluptatibus cum quisquam explicabo!<br/><br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, sunt corporis consectetur incidunt cumque asperiores iure suscipit modi at, vitae nostrum quam laudantium ipsam, inventore quisquam, ducimus quasi dolor. Repellat!"
+				},
+				{
+					"title" : "Three - B02 ipsum dolor sit",
+					"content" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi reprehenderit tempora voluptatum nesciunt labore provident est error asperiores beatae corrupti obcaecati, quis cumque illo, rem iusto veniam, sequi sint? Qui.<br/><br/>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Dolorem voluptatibus consequuntur provident voluptatem molestias quasi eligendi, quo dicta perspiciatis, consectetur ipsum iste quis at inventore quas, facere tempore. Ut, nobis."
+				}
+			]
+		}
+	}
+]

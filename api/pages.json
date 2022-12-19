@@ -1,0 +1,214 @@
+[
+	{
+		"home" : {
+			"title" : "Home page",
+			"blocks" : [
+				{
+					"title" : "SLD Home",
+					"grid" : {
+						"width": "100%",
+						"max-width": "100%",
+						"min-width": "100%"
+					},
+					"slider" : {
+						"html" : [
+							"<div><a href='#'><img src='img/bgs/w-00.jpg' alt='bg 00'/></a></div>",
+							"<div><a href='#'><img src='img/bgs/w-02.jpg' alt='bg 02'/></a></div>"
+						],
+						"config" : {
+							"cls" : "sldHome0x0",
+							"slick" : {
+                				"slidesToShow" : 1,
+                				"slidesToScroll" : 1,
+                				"dots" : true,
+                				"infinite" : true,
+                				"arrows" : false,
+                				"autoplay" : false,
+                				"autoplaySpeed" : 2500
+							}
+						}
+					}
+				},
+				{
+					"title" : "Home - B01 ipsum dolor sit",
+					"content" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi reprehenderit tempora voluptatum nesciunt labore provident est error asperiores beatae corrupti obcaecati, quis cumque illo, rem iusto veniam, sequi sint? Qui.<br/><br/>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Dolorem voluptatibus consequuntur provident voluptatem molestias quasi eligendi, quo dicta perspiciatis, consectetur ipsum iste quis at inventore quas, facere tempore. Ut, nobis."
+				},
+				{
+					"title" : "Home - Slider IMG Test2 [in block 02]",
+					"slider" : {
+						"html" : [
+							"<div><a href='#'><img src='img/icons/014-damasco.png' alt='014-damasco'/></a></div>",
+							"<div><a href='#'><img src='img/icons/015-morango.png' alt='015-morango'/></a></div>",
+							"<div><a href='#'><img src='img/icons/016-alface.png' alt='016-alface'/></a></div>",
+							"<div><a href='#'><img src='img/icons/017-uvas.png' alt='017-uvas'/></a></div>",
+							"<div><a href='#'><img src='img/icons/018-ameixa.png' alt='018-ameixa'/></a></div>",
+							"<div><a href='#'><img src='img/icons/019-mirtilo.png' alt='019-mirtilo'/></a></div>",
+							"<div><a href='#'><img src='img/icons/020-abacaxi.png' alt='020-abacaxi'/></a></div>",
+							"<div><a href='#'><img src='img/icons/021-batata-doce.png' alt='021-batata-doce'/></a></div>"
+						],
+						"config" : {
+							"cls" : "sldTest0x2",
+							"slick" : {
+                				"slidesToShow" : 5,
+                				"slidesToScroll" : 5,
+                				"dots" : true,
+                				"infinite" : true,
+                				"arrows" : false,
+                				"autoplay" : false,
+                				"autoplaySpeed" : 2500
+							}
+						}
+					}
+				},
+				{
+					"title" : "Home - Slider IMG ABC [in block 03]",
+					"grid" : {
+						"width": "49%"
+					},
+					"slider" : {
+						"html" : [
+							"<div><a href='#'><img src='img/icons/001-abacate.png' alt='001-abacate'/></a></div>",
+							"<div><a href='#'><img src='img/icons/002-roma.png' alt='002-roma'/></a></div>",
+							"<div><a href='#'><img src='img/icons/003-banana.png' alt='003-banana'/></a></div>",
+							"<div><a href='#'><img src='img/icons/004-melao.png' alt='004-melao'/></a></div>",
+							"<div><a href='#'><img src='img/icons/005-pessego.png' alt='005-pessego'/></a></div>",
+							"<div><a href='#'><img src='img/icons/006-abobrinha.png' alt='006-abobrinha'/></a></div>"
+						],
+						"config" : {
+							"cls" : "clsABC02",
+							"slick" : {
+                				"slidesToShow" : 7,
+                				"slidesToScroll" : 7,
+                				"dots" : true,
+                				"infinite" : true,
+                				"arrows" : false,
+                				"autoplay" : false,
+                				"autoplaySpeed" : 2500
+							}
+						}
+					}
+				},
+				{
+					"title" : "Home - B02 sequi quo atque",
+					"grid" : {
+						"width": "100%",
+						"max-width": "100%",
+						"min-width": "100%",
+						"background": "#FF36FF"
+					},
+					"content" : "Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Dicta molestiae eligendi, quaerat veritatis illum? Quaerat temporibus commodi illo fugiat perferendis dolores, eaque animi totam repudiandae aliquid voluptatibus cum quisquam explicabo!<br/><br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, sunt corporis consectetur incidunt cumque asperiores iure suscipit modi at, vitae nostrum quam laudantium ipsam, inventore quisquam, ducimus quasi dolor. Repellat!"
+				},
+				{
+					"title" : "Home - B03 consectetur",
+					"content" : "Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Voluptatum dolore consequuntur, possimus, provident quaerat sunt incidunt fugiat recusandae dolorem corrupti. Perspiciatis cupiditate obcaecati asperiores nobis. Possimus asperiores inventore, ad. Quas."
+				},
+				{
+					"title" : "Home - B04 sit amet",
+					"content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consequuntur sequi quo atque amet, minus ut corrupti veritatis soluta ipsa ipsam, eos quam sint aspernatur? Inventore hic aliquid sapiente nihil?"
+				}
+			]
+		},
+		"page-one" : {
+			"title" : "Page one",
+			"blocks" : [
+				{
+					"title" : "One - Slider ICONS [in block 01]",
+					"slider" : {
+						"html" : [
+							"<div><div class='icon-holder'><i class='fi fi-br-a'></i><span class='label mono'>fi-br-a</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-ad'></i><span class='label mono'>fi-br-ad</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-add-document'></i><span class='label mono'>fi-br-add-document</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-add-folder'></i><span class='label mono'>fi-br-add-folder</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-add'></i><span class='label mono'>fi-br-add</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-address-book'></i><span class='label mono'>fi-br-address-book</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-air-conditioner'></i><span class='label mono'>fi-br-air-conditioner</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-air-freshener'></i><span class='label mono'>fi-br-air-freshener</span></div></div>",
+							"<div><div class='icon-holder'><i class='fi fi-br-alarm-clock'></i><span class='label mono'>fi-br-alarm-clock</span></div></div>"
+						],
+						"config" : {
+							"cls" : "sldICON0a",
+							"slick" : {
+                				"slidesToShow" : 5,
+                				"slidesToScroll" : 5,
+                				"dots" : true,
+                				"infinite" : true,
+                				"arrows" : false,
+                				"autoplay" : false,
+                				"autoplaySpeed" : 2500
+							}
+						}
+					}
+				},
+				{
+					"title" : "One - B01 sequi quo atque",
+					"content" : "Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Dicta molestiae eligendi, quaerat veritatis illum? Quaerat temporibus commodi illo fugiat perferendis dolores, eaque animi totam repudiandae aliquid voluptatibus cum quisquam explicabo!<br/><br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, sunt corporis consectetur incidunt cumque asperiores iure suscipit modi at, vitae nostrum quam laudantium ipsam, inventore quisquam, ducimus quasi dolor. Repellat!"
+				},
+				{
+					"title" : "One - Box Blue",
+					"name" : "box-blue",
+					"content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sit illum, nostrum vitae recusandae a, molestias rem cum ea repellendus eligendi, est. Earum sapiente explicabo temporibus, rem eligendi minus, totam?"
+				},
+				{
+					"title" : "One - B02 sit amet",
+					"content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consequuntur sequi quo atque amet, minus ut corrupti veritatis soluta ipsa ipsam, eos quam sint aspernatur? Inventore hic aliquid sapiente nihil?"
+				},
+				{
+					"title" : "One - B03 consectetur",
+					"content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consequuntur sequi quo atque amet, minus ut corrupti veritatis soluta ipsa ipsam, eos quam sint aspernatur? Inventore hic aliquid sapiente nihil?"
+				},
+				{
+					"title" : "One - B04 sit amet",
+					"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis turpis dui, a consectetur tortor pellentesque at. Duis ut egestas risus. Quisque ante neque, porta non sollicitudin vitae, pharetra non mi. Proin eget rhoncus elit. Nunc congue semper sapien sit amet faucibus. Suspendisse ullamcorper vitae purus et auctor. In hac habitasse platea dictumst. Nulla semper pellentesque quam eu imperdiet. Donec elementum, ex nec dapibus convallis, mi dolor condimentum nibh, nec faucibus turpis mi id lectus. Pellentesque tristique, erat at tristique consequat, ligula augue condimentum nulla, vitae gravida nunc leo sit amet enim."
+				},
+				{
+					"title" : "One - B05 sit amet",
+					"content" : "Cras vel posuere felis, sit amet egestas est. Nulla facilisi. Sed ut lectus dignissim, rutrum leo eu, bibendum ipsum. Nullam in tellus ac justo sodales viverra vel eget nibh. Fusce id tortor leo. Etiam in feugiat lorem, elementum molestie metus. Mauris id vestibulum arcu, quis facilisis lectus. Duis sit amet vestibulum lectus, eget sollicitudin purus. Aliquam nec nibh rutrum, eleifend nibh a, pretium risus."
+				},
+				{
+					"title" : "One - B06 sit amet",
+					"content" : "Phasellus venenatis risus eu arcu congue, nec varius leo pretium. Donec eget placerat dui, nec viverra ex. Phasellus dignissim tellus rhoncus orci viverra feugiat. Sed in eros lacinia, posuere arcu sed, pellentesque lectus. Pellentesque non ipsum ac dui venenatis pellentesque. Maecenas lobortis ligula pulvinar, semper nisl eget, rutrum lectus. Duis et mollis sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque neque orci, mollis nec velit vel, imperdiet interdum risus."
+				}
+			]
+		},
+		"page-two" : {
+			"title" : "Page Two",
+			"blocks" : [
+				{
+					"title" : "Two - B01 adipisicing elit",
+					"content" : "Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Voluptatum dolore consequuntur, possimus, provident quaerat sunt incidunt fugiat recusandae dolorem corrupti. Perspiciatis cupiditate obcaecati asperiores nobis. Possimus asperiores inventore, ad. Quas."
+				},
+				{
+					"title" : "Two - B02 blandit semper",
+					"content" : "Fusce velit dui, auctor viverra ex id, blandit semper mauris. Phasellus bibendum non ex et egestas. Mauris tristique lectus eget ipsum condimentum, sed hendrerit lorem sollicitudin. Maecenas sit amet nibh quis neque mattis posuere eget sed nisl. Suspendisse id massa sit amet dui luctus pellentesque ut quis tortor. Aenean rhoncus nibh eget dolor rutrum, eget maximus nisi laoreet. Nullam tempor elit nibh, ornare ultrices nisl fermentum in. Ut tempus hendrerit mollis. Etiam a euismod sem, eget mattis ante. Vestibulum lectus elit, efficitur sit amet mi a, vehicula aliquam neque. Pellentesque pharetra mi in nisi condimentum iaculis. Integer nec mollis dolor. Nulla mattis metus massa, sed laoreet turpis mattis et. Etiam id venenatis lorem. Phasellus scelerisque placerat viverra."
+				},
+				{
+					"title" : "Two - B03 litora torquent",
+					"content" : "Ut sed porttitor est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam euismod, sem vel molestie efficitur, eros purus sollicitudin tortor, at iaculis nisl felis ut sem. In vitae finibus felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut in accumsan dui, a imperdiet eros. Nullam aliquet ex sit amet dolor gravida blandit. Nulla in ante non libero hendrerit pulvinar vitae vel purus. Curabitur a augue id nulla efficitur mattis. Duis in ex ac nunc vulputate rutrum. Sed malesuada turpis sit amet iaculis interdum. Cras vulputate metus sit amet velit congue, nec tristique massa dignissim. Donec sit amet mi nunc. Phasellus dapibus dolor ante, vitae sodales arcu posuere eu. Nam venenatis eget nisi ut laoreet. Quisque dignissim dolor nec hendrerit eleifend."
+				},
+
+				{
+					"title" : "Two - Box Red",
+					"name" : "box-red",
+					"content" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, aperiam dignissimos ullam ea debitis incidunt nihil, praesentium. Rem, quas quibusdam maxime sint quam voluptate quo accusamus necessitatibus, explicabo dicta cumque."
+				},
+				{
+					"title" : "Two - B04 sit amet",
+					"content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consequuntur sequi quo atque amet, minus ut corrupti veritatis soluta ipsa ipsam, eos quam sint aspernatur? Inventore hic aliquid sapiente nihil?"
+				}
+			]
+		},
+		"page-three" : {
+			"title" : "Page Three",
+			"blocks" : [
+				{
+					"title" : "Three - B01 sequi quo atque",
+					"content" : "Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Dicta molestiae eligendi, quaerat veritatis illum? Quaerat temporibus commodi illo fugiat perferendis dolores, eaque animi totam repudiandae aliquid voluptatibus cum quisquam explicabo!<br/><br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, sunt corporis consectetur incidunt cumque asperiores iure suscipit modi at, vitae nostrum quam laudantium ipsam, inventore quisquam, ducimus quasi dolor. Repellat!"
+				},
+				{
+					"title" : "Three - B02 ipsum dolor sit",
+					"content" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi reprehenderit tempora voluptatum nesciunt labore provident est error asperiores beatae corrupti obcaecati, quis cumque illo, rem iusto veniam, sequi sint? Qui.<br/><br/>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Dolorem voluptatibus consequuntur provident voluptatem molestias quasi eligendi, quo dicta perspiciatis, consectetur ipsum iste quis at inventore quas, facere tempore. Ut, nobis."
+				}
+			]
+		}
+	}
+]

@@ -1,0 +1,139 @@
+@charset "UTF-8"; /*
+// - - - - - - - - - - - - - - - - - - - - - - -
+// W F D Y N A M I C
+// - - - - - - - - - - - - - - - - - - - - - - -
+// deploy > v.00bond
+// a wizardfly
+// www.wizrdfly.rf.gd
+// - - - - - - - - - - - - - - - - - - - - - - -
+// #wf-202212091959
+// #wf-202212092010
+// - - - - - - - - - - - - - - - - - - - - - - -
+*/
+/* -- reset -- */
+html, body, div, section, ul, li, a, p, strong, em, h1, h2, h3, h4, h5, h6, nav, img, header, footer, form, fieldset, label, input, i, figure, iframe, hr {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* -- config -- */
+body {
+    background: #FFFFFF;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.grid {
+    width: 95%;
+    max-width: 1180px;
+    min-width: 280px;
+    margin: 0 auto;
+}
+
+.section {
+    width: 100%;
+    float: left;
+}
+
+.afterClear:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/* -- header -- */
+.section.header {
+    padding: 20px 0;
+    background: #1c1c1c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.section.header .grid {
+}
+
+.section.header .left {
+}
+
+.section.header .left .brand {
+    color: #CDDC39;
+    display: block;
+}
+
+.section.header .right {
+}
+
+.section.header .right .menu {
+}
+
+.section.header .right .menu ul {
+}
+
+.section.header .right .menu ul li {
+    display: inline-block;
+    padding: 0 5px 0;
+}
+
+.section.header .right .menu ul li a {
+    color: #CDDC39;
+}
+
+/* -- box dynamic -- */
+.wfDynamic {
+    padding: 59px 0 0;
+}
+
+/* -- content -- */
+.section.content {
+    padding: 20px 0;
+}
+
+.section.content .grid {
+}
+
+/* -- block -- */
+.section.block {
+    padding: 20px 0;
+    margin: 0 0 20px;
+}
+
+.section.block .grid {
+}
+
+.section.block h2 {
+    margin: 0 0 20px;
+    display: block;
+}
+
+.section.block p {
+    display: block;
+}
+
+/* -- block test -- */
+.section.block[name="box-blue"] {
+    background: #039be5;
+}
+
+.section.block[name="box-red"] {
+    background: #e51e03;
+}
+
+/* -- footer -- */
+.section.footer {
+    padding: 20px 0;
+}
+
+.section.footer .grid {
+}
