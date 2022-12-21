@@ -51,6 +51,53 @@ body {
     display: block;
 }
 
+/* -- bar top -- */
+.section.barTop {
+    padding: 5px 0;
+    background: #b1b6e1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 13;
+}
+
+.section.barTop .grid {
+}
+
+.section.barTop .left {
+}
+
+.section.barTop .left ul {
+}
+
+.section.barTop .left ul li {
+}
+
+.section.barTop .left ul li a {
+    line-height: 25px;
+}
+
+.section.barTop .left {
+}
+
+.section.barTop .right ul {
+}
+
+.section.barTop .right ul li {
+    display: inline-block;
+}
+
+.section.barTop .right ul li a {
+    line-height: 25px;
+    display: block;
+}
+
+.section.barTop .right ul li a img {
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /* -- header -- */
 .section.header {
     padding: 20px 0;
@@ -105,7 +152,7 @@ body {
 
 /* -- block -- */
 .section.block {
-    padding: 20px 0;
+    padding: 0 0 30px;
     margin: 0 0 20px;
 }
 
@@ -121,13 +168,74 @@ body {
     display: block;
 }
 
-/* -- block test -- */
-.section.block[name="box-blue"] {
-    background: #039be5;
+/* -- box slider -- */
+.boxSld {
 }
 
-.section.block[name="box-red"] {
-    background: #e51e03;
+.boxSld .slick-prev {
+    z-index: 5;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #FF0000;
+    text-align: center;
+    border-radius: 50%;
+    left: 20px;
+}
+
+.boxSld .slick-prev:before {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-top: 10px solid transparent;
+    border-right: 15px solid #ffffff;
+    border-bottom: 10px solid transparent;
+    border-left: 0;
+}
+
+.boxSld .slick-next {
+    z-index: 5;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #FF0000;
+    text-align: center;
+    border-radius: 50%;
+    right: 20px;
+}
+
+.boxSld .slick-next:before {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-top: 10px solid transparent;
+    border-right: 0;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #ffffff;
+}
+
+.boxSld .slick-dots li button:before {
+    font-family: 'Arial';
+    font-size: 35px;
+    line-height: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.boxSld .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
 }
 
 /* -- footer -- */

@@ -16,6 +16,7 @@
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
 */
+
 /* Arrows */
 .slick-prev, .slick-next {
     font-size: 0;
@@ -52,7 +53,7 @@
 }
 
 .slick-prev:before, .slick-next:before {
-    /*    font-family: 'slick';*/
+/*    font-family: 'slick';*/
     font-family: 'Arial';
     font-size: 20px;
     line-height: 1;
@@ -146,7 +147,7 @@
 }
 
 .slick-dots li button:before {
-    /*    font-family: 'slick';*/
+/*    font-family: 'slick';*/
     font-family: 'Arial';
     font-size: 35px;
     line-height: 35px;

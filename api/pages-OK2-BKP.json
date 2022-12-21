@@ -2,39 +2,6 @@
 	{
 		"home" : {
 			"title" : "Home page",
-			"bar-top" : {
-				"left" : [
-					{
-						"title" : "Lorem ipsum dolor sit amet, consectetur adipisicing.",
-						"name" : "",
-						"url" : "",
-						"target" : "",
-						"icon" : "",
-						"text" : "Lorem ipsum dolor sit amet, consectetur adipisicing."
-					}
-				],
-				"right" : [
-					{
-						"title" : "Lorem ipsum",
-						"name" : "",
-						"url" : "#",
-						"target" : "",
-						"icon" : "<img src='img/icons/014-damasco.png' alt='014-damasco'/>",
-						"text" : "Lorem ipsum"
-					},
-					{
-						"title" : "Adipisicing elit",
-						"name" : "",
-						"url" : "#",
-						"target" : "",
-						"icon" : "<img src='img/icons/017-uvas.png' alt='017-uvas'/>",
-						"text" : "Adipisicing elit"
-					}
-				]
-			},
-			"bar-bottom" : {
-
-			},
 			"blocks" : [
 				{
 					"title" : "",
@@ -46,10 +13,8 @@
 					},
 					"slider" : {
 						"html" : [
-							"<div><a href='#' title='bg 00'><img src='img/bgs/w-00.jpg' alt='bg 00'/></a></div>",
-							"<div><a href='#' title='bg 01'><img src='img/bgs/w-01.jpg' alt='bg 01'/></a></div>",
-							"<div><a href='#' title='bg 02'><img src='img/bgs/w-02.jpg' alt='bg 02'/></a></div>",
-							"<div><a href='#' title='bg 03'><img src='img/bgs/w-03.jpg' alt='bg 03'/></a></div>"
+							"<div><a href='#'><img src='img/bgs/w-00.jpg' alt='bg 00'/></a></div>",
+							"<div><a href='#'><img src='img/bgs/w-02.jpg' alt='bg 02'/></a></div>"
 						],
 						"config" : {
 							"cls" : "sldHome0x0",
@@ -58,7 +23,7 @@
                 				"slidesToScroll" : 1,
                 				"dots" : true,
                 				"infinite" : true,
-                				"arrows" : true,
+                				"arrows" : false,
                 				"autoplay" : false,
                 				"autoplaySpeed" : 2500
 							}

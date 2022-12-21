@@ -7,7 +7,7 @@
 // www.wizrdfly.rf.gd
 // - - - - - - - - - - - - - - - - - - - - - - -
 // #wf-202212091959
-// #wf-202212152121
+// #wf-202212201525
 // - - - - - - - - - - - - - - - - - - - - - - -
 */
 // A
@@ -198,7 +198,8 @@ Wapp.FF = Wapp.FF || {};
                                     // console.log('obj blocks', JSON.parse(obj)[0][p].blocks);
 
                                     // content
-                                    html = Wapp.FF.Content(e, JSON.parse(obj)[0][p].blocks, p);
+                                    // html = Wapp.FF.Content(e, JSON.parse(obj)[0][p].blocks, p);
+                                    html = Wapp.FF.Content(e, JSON.parse(obj)[0][p], p);
 
                                 // ------------------
                                 // NOT OBJECT PAGES
@@ -217,7 +218,8 @@ Wapp.FF = Wapp.FF || {};
                                 // console.log('obj blocks', JSON.parse(obj)[0]['home'].blocks);
 
                                 // content
-                                html = Wapp.FF.Content(e, JSON.parse(obj)[0]['home'].blocks, 'home');
+                                // html = Wapp.FF.Content(e, JSON.parse(obj)[0]['home'].blocks, 'home');
+                                html = Wapp.FF.Content(e, JSON.parse(obj)[0]['home'], 'home');
                             }
                         }
 
@@ -230,7 +232,8 @@ Wapp.FF = Wapp.FF || {};
                         // console.log('obj blocks', JSON.parse(obj)[0]['home'].blocks);
 
                         // content
-                        html = Wapp.FF.Content(e, JSON.parse(obj)[0]['home'].blocks, 'home');
+                        // html = Wapp.FF.Content(e, JSON.parse(obj)[0]['home'].blocks, 'home');
+                        html = Wapp.FF.Content(e, JSON.parse(obj)[0]['home'], 'home');
 
                     // ------------------
                     // NOT OBJECT PAGES
@@ -322,14 +325,142 @@ Wapp.FF = Wapp.FF || {};
         // console.log(':: Content [fnc]');
 
         var
-            html = '';
+            html = '',
+            // section = doc.createElement('SECTION');
+            section = '',
+            clls = '',
+            fullHtml = '';
+
+
+        console.log('obj', obj);
+
+        // ------------------
+        // BAR TOP
+        // ------------------
+        if (obj['bar-top']) {
+            var
+                barSec = doc.createElement('SECTION'),
+                barHtml = '';
+
+            barHtml += '<div class="grid">';
+
+            // box left
+            if (obj['bar-top'].left) {
+                console.log('bar top left', obj['bar-top'].left);
+
+                barHtml += '<div class="left">';
+                    barHtml += '<ul>';
+
+                        [].forEach.call(obj['bar-top'].left, function (bar, ind) {
+                            console.log('bar top', bar);
+                            console.log('ind', ind);
+
+                            barHtml += '<li>';
+                                barHtml += '<a href="' + bar.url + '" name="' + bar.name + '" title="' + bar.title + '" target="' + bar.target + '">';
+                                    barHtml += bar.icon;
+                                    barHtml += bar.text;
+                                barHtml += '</a>';
+                            barHtml += '</li>';
+                        });
+
+                    barHtml += '</ul>';
+                barHtml += '</div>';
+            };
+
+            // box right
+            if (obj['bar-top'].right) {
+                console.log('bar top right', obj['bar-top'].right);
+
+                barHtml += '<div class="right">';
+                    barHtml += '<ul>';
+
+                        [].forEach.call(obj['bar-top'].right, function (bar, ind) {
+                            console.log('bar top', bar);
+                            console.log('ind', ind);
+
+                            barHtml += '<li>';
+                                barHtml += '<a href="' + bar.url + '" name="' + bar.name + '" title="' + bar.title + '" target="' + bar.target + '">';
+                                    barHtml += bar.icon;
+                                    barHtml += bar.text;
+                                barHtml += '</a>';
+                            barHtml += '</li>';
+                        });
+
+                    barHtml += '</ul>';
+                barHtml += '</div>';
+            };
+
+            barHtml += '</div>';
+
+            barSec.className = 'section barTop';
+            barSec.innerHTML = barHtml;
+
+            console.log('APPEND THIS bar in TOP HEADER');
+            console.log('barSec', barSec);
+
+            /*
+            // Create a "li" element:
+            const newNode = document.createElement("li");
+            // Create a text node:
+            const textNode = document.createTextNode("Water");
+            // Append text node to "li" element:
+            newNode.appendChild(textNode);
+
+            // Insert before existing child:
+            const list = document.querySelectorAll(".section.header")[0];
+            list.parentElement.insertBefore(newNode, list.parentElement.children[0]);
+            */
+
+            // Insert before existing child:
+            var
+                boxHeader = doc.querySelectorAll(".section.header")[0];
+
+            if (boxHeader) {
+                boxHeader.parentElement.insertBefore(barSec, boxHeader.parentElement.children[0]);
+
+                // change position
+                boxHeader.style.margin = barSec.offsetHeight + 'px 0 0';
+
+                // change position all blocks
+                if (doc.querySelectorAll('.wfDynamic')[0]) {
+                    doc.querySelectorAll('.wfDynamic')[0].style.padding = (boxHeader.offsetHeight + barSec.offsetHeight) + 'px 0 0';
+                }
+            }
+        }
+
+        // ------------------
+        // BAR BOTTOM
+        // ------------------
+        // bar
+        // [].forEach.call(obj['bar-bottom'], function (bar, ind) {
+        //     console.log('bar bottom', bar);
+        //     console.log('ind', ind);
+        // });
 
         // ------------------
         // OBJECT PAGES
         // ------------------
         // blocks
-        [].forEach.call(obj, function (block, index) {
-            console.log('block', block);
+        [].forEach.call(obj.blocks, function (block, index) {
+            // console.log('block', block);
+
+            html = '';
+            section = doc.createElement('SECTION');
+            clls = '';
+
+            // ------------------
+            // CLASS
+            // ------------------
+            if (block.cls) {
+                // console.log('add CLASS in BLOCK >', block.cls);
+
+                section.className = block.cls;
+
+            } else {
+                // console.log('set DEFAULT CLASS in BLOCK >', 'section block ' + page + index);
+
+                section.className = 'section block ' + page + index;
+            }
 
             // ------------------
             // for scrolls events
@@ -337,155 +468,230 @@ Wapp.FF = Wapp.FF || {};
             // NAME
             // ------------------
             if (block.name) {
-                html += '<section class="section block ' + page + index + '" name="' + block.name + '">';
+                // html += '<section class="section block ' + page + index + '" name="' + block.name + '">';
+
+                // console.log('add NAME in BLOCK >', block.name);
+
+                // section.name = block.name;
+                section.setAttribute('name', block.name);
+
+            }
+            // } else {
+                // html += '<section class="section block ' + page + index + '" name="' + page + index + '">';
+            // }
+
+            // console.log('section', section);
+
+            // loop BLOCK class
+            [].forEach.call(section.classList, function (c) {
+                // console.log('c', c);
+
+                clls += '.' + c;
+            });
+
+            // ------------------
+            // for custom styles
+            // ------------------
+            // BLOCK
+            // ------------------
+            if (block.block) {
+                var
+                    // box = '.section.block.' + page + index + ' .grid',
+                    // box = section.className + ' .grid',
+                    box = clls,
+                    stl = '',
+                    prop = '';
+
+                stl += '<style>';
+                stl += box + '{';
+
+                for (prop in block.block) {
+                    // console.log('prop', prop);
+                    // console.log('[prop]', block.block[prop]);
+
+                    stl += prop;
+                    stl += ':';
+                    stl += block.block[prop];
+                    stl += ';';
+                }
+
+                // console.log('box', box);
+                // console.log('stl', stl);
+                // console.log('-------------');
+
+                stl += '}';
+                stl += '</style>';
+
+                html += stl;
+            }
+
+            // ------------------
+            // for custom styles
+            // ------------------
+            // GRID
+            // ------------------
+            if (block.grid) {
+                html += '<div class="grid">';
+
+                // console.log('.................');
+                // console.log('section.className', section.className);
+                // console.log('section.classList', section.classList);
+                // console.log('.................');
+
+                /*
+                // loop class
+                [].forEach.call(section.classList, function (c) {
+                    console.log('c', c);
+
+                    clls += '.' + c;
+                });
+
+                // clls += ' .grid';
+                */
+
+                var
+                    // box = '.section.block.' + page + index + ' .grid',
+                    // box = section.className + ' .grid',
+                    // box = clls,
+                    box = clls + ' .grid',
+                    stl = '',
+                    prop = '';
+
+                stl += '<style>';
+                stl += box + '{';
+
+                for (prop in block.grid) {
+                    // console.log('prop', prop);
+                    // console.log('[prop]', block.grid[prop]);
+
+                    stl += prop;
+                    stl += ':';
+                    stl += block.grid[prop];
+                    stl += ';';
+                }
+
+                // console.log('box', box);
+                // console.log('stl', stl);
+                // console.log('-------------');
+
+                stl += '}';
+                stl += '</style>';
+
+                html += stl;
 
             } else {
-                html += '<section class="section block ' + page + index + '" name="' + page + index + '">';
+                html += '<div class="grid">';
             }
 
                 // ------------------
-                // for custom styles
+                // TITLE
                 // ------------------
-                // GRID
-                // ------------------
-                if (block.grid) {
-                    html += '<div class="grid">';
-
-                    var
-                        box = '.section.block.' + page + index + ' .grid',
-                        stl = '',
-                        prop = '';
-
-                    stl += '<style>';
-                    stl += box + '{';
-
-                    for (prop in block.grid) {
-                        // console.log('prop', prop);
-                        // console.log('[prop]', block.grid[prop]);
-
-                        stl += prop;
-                        stl += ':';
-                        stl += block.grid[prop];
-                        stl += ';';
-                    }
-
-                    // console.log('box', box);
-                    // console.log('stl', stl);
-                    // console.log('-------------');
-
-                    stl += '}';
-                    stl += '</style>';
-
-                    html += stl;
-
-                } else {
-                    html += '<div class="grid">';
+                if (block.title) {
+                    html += '<h2>';
+                        html += block.title;
+                    html += '</h2>';
                 }
 
-                    // ------------------
-                    // TITLE
-                    // ------------------
-                    if (block.title) {
-                        html += '<h2>';
-                            html += block.title;
-                        html += '</h2>';
-                    }
+                // -----------------------------
+                // SLIDER
+                // -----------------------------
+                if (block.slider) {
+                    // console.log('HAVE SLIDER');
 
                     // -----------------------------
-                    // SLIDER
+                    // check config SLIDER
                     // -----------------------------
-                    if (block.slider) {
-                        // console.log('HAVE SLIDER');
+                    if (block.slider.config) {
+                        // console.log('block.slider.config', block.slider.config);
 
-                        // -----------------------------
-                        // check config SLIDER
-                        // -----------------------------
-                        if (block.slider.config) {
-                            // console.log('block.slider.config', block.slider.config);
+                        if (block.slider.config.cls) {
+                            // console.log('block.slider.config.cls', block.slider.config.cls);
 
-                            if (block.slider.config.cls) {
-                                // console.log('block.slider.config.cls', block.slider.config.cls);
+                            // -----------------------------
+                            // create html SLIDER
+                            // -----------------------------
+                            html += '<div class="boxSld sld' + index + '">';
+                                html += '<div class="' + block.slider.config.cls + '">';
 
-                                // -----------------------------
-                                // create html SLIDER
-                                // -----------------------------
-                                html += '<div class="sld' + index + '">';
-                                    html += '<div class="' + block.slider.config.cls + '">';
+                                    // loop sliders
+                                    [].forEach.call(block.slider.html, function (sld) {
+                                        // console.log('sld', sld);
 
-                                        // loop sliders
-                                        [].forEach.call(block.slider.html, function (sld) {
-                                            // console.log('sld', sld);
-
-                                            html += sld;
-                                        });
-
-                                    html += '</div>';
-                                html += '</div>';
-
-                                // -----------------------------
-                                // create config SLIDER
-                                // -----------------------------
-                                if (block.slider.config.slick) {
-                                    // console.log('block.slider.config.slick', block.slider.config.slick);
-
-                                    // console.log('-- create scripts --');
-
-                                    // ::::::::::::::::::::::::::::::::::::::::
-                                    // call function before append html
-                                    // $(cls).slick({...
-                                    // ::::::::::::::::::::::::::::::::::::::::
-
-                                    // -----------------------------
-                                    // create slider
-                                    // -----------------------------
-                                    // $('.' + block.slider.config.cls).slick(block.slider.config.slick);
-
-                                    // -----------------------------
-                                    // storage config
-                                    // -----------------------------
-                                    Vars.sldConfig.push({
-                                        'cls' : block.slider.config.cls,
-                                        'slick' : block.slider.config.slick
+                                        html += sld;
                                     });
-                                }
+
+                                html += '</div>';
+                            html += '</div>';
+
+                            // -----------------------------
+                            // create config SLIDER
+                            // -----------------------------
+                            if (block.slider.config.slick) {
+                                // console.log('block.slider.config.slick', block.slider.config.slick);
+
+                                // console.log('-- create scripts --');
+
+                                // ::::::::::::::::::::::::::::::::::::::::
+                                // call function before append html
+                                // $(cls).slick({...
+                                // ::::::::::::::::::::::::::::::::::::::::
+
+                                // -----------------------------
+                                // create slider
+                                // -----------------------------
+                                // $('.' + block.slider.config.cls).slick(block.slider.config.slick);
+
+                                // -----------------------------
+                                // storage config
+                                // -----------------------------
+                                Vars.sldConfig.push({
+                                    'cls' : block.slider.config.cls,
+                                    'slick' : block.slider.config.slick
+                                });
                             }
                         }
                     }
+                }
 
-                    // ------------------
-                    // SLIDER CONFIG
-                    // ------------------
-                    // Vars.sldConfig.push({
-                        /*
-                        $('.boxSld').slick({
-                            slidesToShow: 3,
-                            slidesToScroll: 3,
-                            dots: true,
-                            infinite: true,
-                            arrows: true,
-                            // centerMode: true,
-                            // autoplay: true,
-                            // autoplaySpeed: 2000,
-                        });
-                        */
-                    // });
+                // ------------------
+                // SLIDER CONFIG
+                // ------------------
+                // Vars.sldConfig.push({
+                    /*
+                    $('.boxSld').slick({
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        dots: true,
+                        infinite: true,
+                        arrows: true,
+                        // centerMode: true,
+                        // autoplay: true,
+                        // autoplaySpeed: 2000,
+                    });
+                    */
+                // });
 
-                    // boxSld' + index + '
+                // boxSld' + index + '
 
-                    // ------------------
-                    // CONTENT
-                    // ------------------
-                    if (block.content) {
-                        html += '<p>';
-                            html += block.content;
-                        html += '</p>';
-                    }
+                // ------------------
+                // CONTENT
+                // ------------------
+                if (block.content) {
+                    html += '<p>';
+                        html += block.content;
+                    html += '</p>';
+                }
 
-                html += '</div>';
-            html += '</section>';
+            html += '</div>';
+            // html += '</section>';
+
+            section.innerHTML = html;
+
+            fullHtml += section.outerHTML;
         });
 
-        return html;
+        // return html;
+        return fullHtml;
     };
 
     /* Scroll HASH URL */
