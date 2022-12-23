@@ -28,7 +28,7 @@ Wapp.FF = Wapp.FF || {};
     /* private Vars */
     Vars = {
         // :: url api ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-        // urlApi              : 'api/pages.json',
+        urlApi              : 'api/pages.json',
         // :: dynamic box ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         wfDynamic           : doc.querySelectorAll('.wfDynamic')[0],
         // :: slider config ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -112,7 +112,6 @@ Wapp.FF = Wapp.FF || {};
         // ------------------
         // AJAX
         // ------------------
-        /*
         ajax.open('GET', Vars.urlApi , true);
         ajax.setRequestHeader('Content-Type', 'application/json');
         ajax.send();
@@ -137,41 +136,23 @@ Wapp.FF = Wapp.FF || {};
                 }
             }
         };
-        */
-
-        // ----------
-        // SUCCESS
-        // ----------
-        if (win.WFDynamic) {
-            // Wapp.FF.PopulateContent(e, win.WFDynamic, page, 'SUCCESS', ajax);
-            Wapp.FF.PopulateContent(e, win.WFDynamic, page, 'SUCCESS');
-
-        // ----------
-        // ERROR
-        // ----------
-        } else {
-            // Wapp.FF.PopulateContent(e, '', page, 'ERROR', ajax);
-            Wapp.FF.PopulateContent(e, '', page, 'ERROR');
-        }
-
     };
 
     /* Populate Content */
-    // Wapp.FF.PopulateContent = function (e, obj, page, type, req) {
-    Wapp.FF.PopulateContent = function (e, obj, page, type) {
-        console.log(':: PopulateContent [fnc]');
+    Wapp.FF.PopulateContent = function (e, obj, page, type, req) {
+        // console.log(':: PopulateContent [fnc]');
 
-        console.log('e', e);
-        console.log('obj', obj);
+        // console.log('e', e);
+        // console.log('obj', obj);
         // console.log('JSON obj', JSON.parse(obj));
-        console.log('page', page);
-        console.log('type', type);
+        // console.log('page', page);
+        // console.log('type', type);
         // console.log('req', req);
 
         // get content by page
         var
-        //     urlParams = new URLSearchParams(page),
-        //     p = urlParams.get('p'),
+            urlParams = new URLSearchParams(page),
+            p = urlParams.get('p'),
             html = '';
 
         // console.log('urlParams', urlParams);
@@ -194,35 +175,31 @@ Wapp.FF = Wapp.FF || {};
                 // ------------------
                 // OBJECT
                 // ------------------
-                // if (obj) {
-                    console.log('obj', obj);
+                if (obj) {
+                    // console.log('obj', obj);
 
                     // ------------------
                     // CHECK PAGE
                     // ------------------
                     // SET RESULT PAGE
                     // ------------------
-                    // if (page) {
+                    if (page) {
                         // console.log('page', page);
 
-                        // if (urlParams) {
+                        if (urlParams) {
                             // console.log('urlParams', urlParams);
 
-                            // if (p) {
+                            if (p) {
                                 // console.log('p', p);
 
-                                // if (JSON.parse(obj)[0][p]) {
-                                // if (obj[0][p]) {
-                                if (obj) {
+                                if (JSON.parse(obj)[0][p]) {
                                     // console.log('obj p SUCCESS title', JSON.parse(obj)[0][p].blocks[0].title);
                                     // console.log('obj p SUCCESS content', JSON.parse(obj)[0][p].blocks[0].content);
                                     // console.log('obj blocks', JSON.parse(obj)[0][p].blocks);
 
                                     // content
                                     // html = Wapp.FF.Content(e, JSON.parse(obj)[0][p].blocks, p);
-                                    // html = Wapp.FF.Content(e, JSON.parse(obj)[0][p], p);
-                                    // html = Wapp.FF.Content(e, obj[0][p], p);
-                                    html = Wapp.FF.Content(e, obj);
+                                    html = Wapp.FF.Content(e, JSON.parse(obj)[0][p], p);
 
                                 // ------------------
                                 // NOT OBJECT PAGES
@@ -235,42 +212,37 @@ Wapp.FF = Wapp.FF || {};
                             // ------------------
                             // SET HOME PAGE
                             // ------------------
-                            // } else if (JSON.parse(obj)[0]['home']) {
-                            // } else if (obj[0]['home']) {
+                            } else if (JSON.parse(obj)[0]['home']) {
                                 // console.log('obj home SUCCESS title', JSON.parse(obj)[0]['home'].blocks[0].title);
                                 // console.log('obj home SUCCESS content', JSON.parse(obj)[0]['home'].blocks[0].content);
                                 // console.log('obj blocks', JSON.parse(obj)[0]['home'].blocks);
 
                                 // content
                                 // html = Wapp.FF.Content(e, JSON.parse(obj)[0]['home'].blocks, 'home');
-                                // html = Wapp.FF.Content(e, JSON.parse(obj)[0]['home'], 'home');
-                                // html = Wapp.FF.Content(e, obj[0]['home'], 'home');
-                                // html = Wapp.FF.Content(e, obj[0]['home'], 'home');
-                            // }
-                        // }
+                                html = Wapp.FF.Content(e, JSON.parse(obj)[0]['home'], 'home');
+                            }
+                        }
 
                     // ------------------
                     // SET HOME PAGE
                     // ------------------
-                    // } else if (JSON.parse(obj)[0]['home']) {
-                    // } else if (obj[0]['home']) {
+                    } else if (JSON.parse(obj)[0]['home']) {
                         // console.log('obj home SUCCESS title', JSON.parse(obj)[0]['home'].blocks[0].title);
                         // console.log('obj home SUCCESS content', JSON.parse(obj)[0]['home'].blocks[0].content);
                         // console.log('obj blocks', JSON.parse(obj)[0]['home'].blocks);
 
                         // content
                         // html = Wapp.FF.Content(e, JSON.parse(obj)[0]['home'].blocks, 'home');
-                        // html = Wapp.FF.Content(e, JSON.parse(obj)[0]['home'], 'home');
-                        // html = Wapp.FF.Content(e, obj[0]['home'], 'home');
+                        html = Wapp.FF.Content(e, JSON.parse(obj)[0]['home'], 'home');
 
                     // ------------------
                     // NOT OBJECT PAGES
                     // ------------------
-                    // } else {
+                    } else {
                         // not found
-                        // html = Wapp.FF.NotFound(e, type);
-                    // }
-                // }
+                        html = Wapp.FF.NotFound(e, type);
+                    }
+                }
 
             // ------------------
             // ERROR
@@ -337,11 +309,10 @@ Wapp.FF = Wapp.FF || {};
         html += '<section class="section block notFound" name="notFound">';
             html += '<div class="grid">';
                 html += '<h2>';
-                    // html += type + ' OBJ';
-                    html += '404';
+                    html += type + ' OBJ';
                 html += '</h2>';
                 html += '<p>';
-                    html += 'page not found!';
+                    html += 'content page not found!';
                 html += '</p>';
             html += '</div>';
         html += '</section>';

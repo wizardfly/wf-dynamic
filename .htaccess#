@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^([0-9]+)/(.+)$ /instructions.php?topic_id=$1&category=NNNX&t=$2 [L]
+RewriteRule ^([-\w]+)$ single.php?url=$1 [NC,L]

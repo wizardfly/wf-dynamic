@@ -1,0 +1,74 @@
+{
+	"title" : "Page one",
+	"blocks" : [
+		{
+			"title" : "One - Slider ICONS [in block 01]",
+			"cls" : "",
+			"slider" : {
+				"html" : [
+					"<div><div class='icon-holder'><i class='fi fi-br-a'></i><span class='label mono'>fi-br-a</span></div></div>",
+					"<div><div class='icon-holder'><i class='fi fi-br-ad'></i><span class='label mono'>fi-br-ad</span></div></div>",
+					"<div><div class='icon-holder'><i class='fi fi-br-add-document'></i><span class='label mono'>fi-br-add-document</span></div></div>",
+					"<div><div class='icon-holder'><i class='fi fi-br-add-folder'></i><span class='label mono'>fi-br-add-folder</span></div></div>",
+					"<div><div class='icon-holder'><i class='fi fi-br-add'></i><span class='label mono'>fi-br-add</span></div></div>",
+					"<div><div class='icon-holder'><i class='fi fi-br-address-book'></i><span class='label mono'>fi-br-address-book</span></div></div>",
+					"<div><div class='icon-holder'><i class='fi fi-br-air-conditioner'></i><span class='label mono'>fi-br-air-conditioner</span></div></div>",
+					"<div><div class='icon-holder'><i class='fi fi-br-air-freshener'></i><span class='label mono'>fi-br-air-freshener</span></div></div>",
+					"<div><div class='icon-holder'><i class='fi fi-br-alarm-clock'></i><span class='label mono'>fi-br-alarm-clock</span></div></div>"
+				],
+				"config" : {
+					"cls" : "sldICON0a",
+					"slick" : {
+        				"slidesToShow" : 5,
+        				"slidesToScroll" : 5,
+        				"dots" : true,
+        				"infinite" : true,
+        				"arrows" : false,
+        				"autoplay" : false,
+        				"autoplaySpeed" : 2500
+					}
+				}
+			}
+		},
+		{
+			"title" : "One - B01 sequi quo atque",
+			"cls" : "",
+			"content" : "Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Dicta molestiae eligendi, quaerat veritatis illum? Quaerat temporibus commodi illo fugiat perferendis dolores, eaque animi totam repudiandae aliquid voluptatibus cum quisquam explicabo!<br/><br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, sunt corporis consectetur incidunt cumque asperiores iure suscipit modi at, vitae nostrum quam laudantium ipsam, inventore quisquam, ducimus quasi dolor. Repellat!"
+		},
+		{
+			"title" : "One - Box Blue",
+			"cls" : "",
+			"block" : {
+				"padding" : "60px 0",
+				"background" : "#039be5"
+			},
+			"name" : "box-blue",
+			"content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sit illum, nostrum vitae recusandae a, molestias rem cum ea repellendus eligendi, est. Earum sapiente explicabo temporibus, rem eligendi minus, totam?"
+		},
+		{
+			"title" : "One - B02 sit amet",
+			"cls" : "",
+			"content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consequuntur sequi quo atque amet, minus ut corrupti veritatis soluta ipsa ipsam, eos quam sint aspernatur? Inventore hic aliquid sapiente nihil?"
+		},
+		{
+			"title" : "One - B03 consectetur",
+			"cls" : "",
+			"content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consequuntur sequi quo atque amet, minus ut corrupti veritatis soluta ipsa ipsam, eos quam sint aspernatur? Inventore hic aliquid sapiente nihil?"
+		},
+		{
+			"title" : "One - B04 sit amet",
+			"cls" : "",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis turpis dui, a consectetur tortor pellentesque at. Duis ut egestas risus. Quisque ante neque, porta non sollicitudin vitae, pharetra non mi. Proin eget rhoncus elit. Nunc congue semper sapien sit amet faucibus. Suspendisse ullamcorper vitae purus et auctor. In hac habitasse platea dictumst. Nulla semper pellentesque quam eu imperdiet. Donec elementum, ex nec dapibus convallis, mi dolor condimentum nibh, nec faucibus turpis mi id lectus. Pellentesque tristique, erat at tristique consequat, ligula augue condimentum nulla, vitae gravida nunc leo sit amet enim."
+		},
+		{
+			"title" : "One - B05 sit amet",
+			"cls" : "",
+			"content" : "Cras vel posuere felis, sit amet egestas est. Nulla facilisi. Sed ut lectus dignissim, rutrum leo eu, bibendum ipsum. Nullam in tellus ac justo sodales viverra vel eget nibh. Fusce id tortor leo. Etiam in feugiat lorem, elementum molestie metus. Mauris id vestibulum arcu, quis facilisis lectus. Duis sit amet vestibulum lectus, eget sollicitudin purus. Aliquam nec nibh rutrum, eleifend nibh a, pretium risus."
+		},
+		{
+			"title" : "One - B06 sit amet",
+			"cls" : "",
+			"content" : "Phasellus venenatis risus eu arcu congue, nec varius leo pretium. Donec eget placerat dui, nec viverra ex. Phasellus dignissim tellus rhoncus orci viverra feugiat. Sed in eros lacinia, posuere arcu sed, pellentesque lectus. Pellentesque non ipsum ac dui venenatis pellentesque. Maecenas lobortis ligula pulvinar, semper nisl eget, rutrum lectus. Duis et mollis sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque neque orci, mollis nec velit vel, imperdiet interdum risus."
+		}
+	]
+}

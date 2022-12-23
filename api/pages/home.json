@@ -1,0 +1,153 @@
+{
+	"title" : "Home page",
+	"bar-top" : {
+		"left" : [
+			{
+				"title" : "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				"name" : "",
+				"url" : "",
+				"target" : "",
+				"icon" : "",
+				"text" : "Lorem ipsum dolor sit amet, consectetur adipisicing."
+			}
+		],
+		"right" : [
+			{
+				"title" : "Lorem ipsum",
+				"name" : "",
+				"url" : "#",
+				"target" : "",
+				"icon" : "<img src='img/icons/014-damasco.png' alt='014-damasco'/>",
+				"text" : "Lorem ipsum"
+			},
+			{
+				"title" : "Adipisicing elit",
+				"name" : "",
+				"url" : "#",
+				"target" : "",
+				"icon" : "<img src='img/icons/017-uvas.png' alt='017-uvas'/>",
+				"text" : "Adipisicing elit"
+			}
+		]
+	},
+	"bar-bottom" : {
+
+	},
+	"blocks" : [
+		{
+			"title" : "",
+			"cls" : "",
+			"grid" : {
+				"width": "100%",
+				"max-width": "100%",
+				"min-width": "100%"
+			},
+			"slider" : {
+				"html" : [
+					"<div><a href='#' title='bg 00'><img src='img/bgs/w-00.jpg' alt='bg 00'/></a></div>",
+					"<div><a href='#' title='bg 01'><img src='img/bgs/w-01.jpg' alt='bg 01'/></a></div>",
+					"<div><a href='#' title='bg 02'><img src='img/bgs/w-02.jpg' alt='bg 02'/></a></div>",
+					"<div><a href='#' title='bg 03'><img src='img/bgs/w-03.jpg' alt='bg 03'/></a></div>"
+				],
+				"config" : {
+					"cls" : "sldHome0x0",
+					"slick" : {
+        				"slidesToShow" : 1,
+        				"slidesToScroll" : 1,
+        				"dots" : true,
+        				"infinite" : true,
+        				"arrows" : true,
+        				"autoplay" : false,
+        				"autoplaySpeed" : 2500
+					}
+				}
+			}
+		},
+		{
+			"title" : "Home - B01 ipsum dolor sit",
+			"cls" : "",
+			"content" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi reprehenderit tempora voluptatum nesciunt labore provident est error asperiores beatae corrupti obcaecati, quis cumque illo, rem iusto veniam, sequi sint? Qui.<br/><br/>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Dolorem voluptatibus consequuntur provident voluptatem molestias quasi eligendi, quo dicta perspiciatis, consectetur ipsum iste quis at inventore quas, facere tempore. Ut, nobis."
+		},
+		{
+			"title" : "Home - Slider IMG Test2 [in block 02]",
+			"cls" : "",
+			"slider" : {
+				"html" : [
+					"<div><a href='#'><img src='img/icons/014-damasco.png' alt='014-damasco'/></a></div>",
+					"<div><a href='#'><img src='img/icons/015-morango.png' alt='015-morango'/></a></div>",
+					"<div><a href='#'><img src='img/icons/016-alface.png' alt='016-alface'/></a></div>",
+					"<div><a href='#'><img src='img/icons/017-uvas.png' alt='017-uvas'/></a></div>",
+					"<div><a href='#'><img src='img/icons/018-ameixa.png' alt='018-ameixa'/></a></div>",
+					"<div><a href='#'><img src='img/icons/019-mirtilo.png' alt='019-mirtilo'/></a></div>",
+					"<div><a href='#'><img src='img/icons/020-abacaxi.png' alt='020-abacaxi'/></a></div>",
+					"<div><a href='#'><img src='img/icons/021-batata-doce.png' alt='021-batata-doce'/></a></div>"
+				],
+				"config" : {
+					"cls" : "sldTest0x2",
+					"slick" : {
+        				"slidesToShow" : 5,
+        				"slidesToScroll" : 5,
+        				"dots" : true,
+        				"infinite" : true,
+        				"arrows" : false,
+        				"autoplay" : false,
+        				"autoplaySpeed" : 2500
+					}
+				}
+			}
+		},
+		{
+			"title" : "Home - Slider IMG ABC [in block 03]",
+			"cls" : "",
+			"grid" : {
+				"width": "49%"
+			},
+			"slider" : {
+				"html" : [
+					"<div><a href='#'><img src='img/icons/001-abacate.png' alt='001-abacate'/></a></div>",
+					"<div><a href='#'><img src='img/icons/002-roma.png' alt='002-roma'/></a></div>",
+					"<div><a href='#'><img src='img/icons/003-banana.png' alt='003-banana'/></a></div>",
+					"<div><a href='#'><img src='img/icons/004-melao.png' alt='004-melao'/></a></div>",
+					"<div><a href='#'><img src='img/icons/005-pessego.png' alt='005-pessego'/></a></div>",
+					"<div><a href='#'><img src='img/icons/006-abobrinha.png' alt='006-abobrinha'/></a></div>"
+				],
+				"config" : {
+					"cls" : "clsABC02",
+					"slick" : {
+        				"slidesToShow" : 5,
+        				"slidesToScroll" : 5,
+        				"dots" : true,
+        				"infinite" : true,
+        				"arrows" : false,
+        				"autoplay" : false,
+        				"autoplaySpeed" : 2500
+					}
+				}
+			}
+		},
+		{
+			"title" : "Home - B02 sequi quo atque",
+			"cls" : "",
+			"block" : {
+				"padding" : "60px 0",
+				"background": "#689f38"
+			},
+			"content" : "Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Dicta molestiae eligendi, quaerat veritatis illum? Quaerat temporibus commodi illo fugiat perferendis dolores, eaque animi totam repudiandae aliquid voluptatibus cum quisquam explicabo!<br/><br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, sunt corporis consectetur incidunt cumque asperiores iure suscipit modi at, vitae nostrum quam laudantium ipsam, inventore quisquam, ducimus quasi dolor. Repellat!"
+		},
+		{
+			"title" : "Home - B03 consectetur",
+			"cls" : "",
+			"content" : "Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Voluptatum dolore consequuntur, possimus, provident quaerat sunt incidunt fugiat recusandae dolorem corrupti. Perspiciatis cupiditate obcaecati asperiores nobis. Possimus asperiores inventore, ad. Quas."
+		},
+		{
+			"title" : "Home - B04 sit amet",
+			"cls" : "",
+			"block" : {
+				"padding" : "80px 0",
+				"background" : "url(img/bgs/w-03.jpg) no-repeat center / cover",
+				"color" : "#FFFFFF"
+			},
+			"content" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consequuntur sequi quo atque amet, minus ut corrupti veritatis soluta ipsa ipsam, eos quam sint aspernatur? Inventore hic aliquid sapiente nihil?"
+		}
+	]
+}
